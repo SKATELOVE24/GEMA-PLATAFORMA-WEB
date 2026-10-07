@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0f3d5d" />
+  <title>GEMA — Gestión Escolar</title>
+  <link rel="icon" href="assets/gema-logo.png" />
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <div id="toastHost" class="toast-host"></div>
+
+  <main id="publicSite" class="public-site">
+    <header class="public-nav">
+      <a class="brand" href="#top" aria-label="GEMA inicio">
+        <img src="assets/gema-logo.png" alt="Logo GEMA" />
+        <span><strong>GEMA</strong><small>Gestión Escolar</small></span>
+      </a>
+      <nav>
+        <a href="#funciones">Funciones</a>
+        <a href="#descargas">Descargas</a>
+        <a href="#sobre">Sobre GEMA</a>
+      </nav>
+      <button class="btn btn-primary" id="openLoginTop">Entrar a GEMA Web</button>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> Plataforma académica 2026</div>
+        <h1>Tu escuela, tus tareas y tu progreso. <em>Todo en GEMA.</em></h1>
+        <p>Una experiencia tipo Classroom diseñada para coordinación, docentes y alumnos: materias, tareas, entregas, calificaciones, cargos, reportes y seguimiento académico en un solo lugar.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary btn-lg" id="openLoginHero">Abrir GEMA Web</button>
+          <a class="btn btn-soft btn-lg" href="#descargas">Descargar escritorio</a>
+        </div>
+        <div class="trust-row">
+          <span>✓ Roles separados</span><span>✓ Archivos y entregas</span><span>✓ Responsive</span><span>✓ Modo demo</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="glow glow-a"></div><div class="glow glow-b"></div>
+        <div class="mock-shell">
+          <aside class="mock-side"><img src="assets/gema-logo.png" /><i></i><i></i><i></i><i></i><i></i></aside>
+          <div class="mock-main">
+            <div class="mock-top"><b>Buenos días 👋</b><span></span></div>
+            <div class="mock-stats"><i></i><i></i><i></i><i></i></div>
+            <div class="mock-grid"><div class="mock-card tall"></div><div class="mock-card"></div><div class="mock-card"></div></div>
+          </div>
+        </div>
+        <div class="floating-chip chip-one">📚 Tareas organizadas</div>
+        <div class="floating-chip chip-two">✓ Entrega registrada</div>
+      </div>
+    </section>
+
+    <section class="section" id="funciones">
+      <div class="section-head"><span class="eyebrow"><span></span> Todo en un solo sistema</span><h2>La misma idea de GEMA, llevada a la web</h2><p>La interfaz se adapta al rol que inicia sesión y mantiene el estilo turquesa y azul de la versión de escritorio.</p></div>
+      <div class="feature-grid">
+        <article class="feature"><div class="feature-icon">⌂</div><h3>Panel inteligente</h3><p>Métricas, actividad reciente y accesos rápidos para saber qué está pasando sin perder tiempo.</p></article>
+        <article class="feature"><div class="feature-icon">✓</div><h3>Tareas y entregas</h3><p>Creación, fechas programadas, adjuntos, estados de entrega y calificación desde el navegador.</p></article>
+        <article class="feature"><div class="feature-icon">▦</div><h3>Materias y cursos</h3><p>Organización por curso y sección, materias asignadas y vista diferenciada para cada usuario.</p></article>
+        <article class="feature"><div class="feature-icon">★</div><h3>Racha y ranking</h3><p>Seguimiento de constancia del alumno y ranking por curso para mantener la motivación.</p></article>
+        <article class="feature"><div class="feature-icon">◉</div><h3>Cargos estudiantiles</h3><p>Asignación de cargos, puntos extra y control de responsables por curso.</p></article>
+        <article class="feature"><div class="feature-icon">↗</div><h3>Reportes</h3><p>Vista de rendimiento, filtros y diseño preparado para imprimir o guardar como PDF.</p></article>
+      </div>
+    </section>
+
+    <section class="download-section" id="descargas">
+      <div class="download-copy"><span class="eyebrow light"><span></span> GEMA Desktop</span><h2>Usalo también como aplicación de escritorio</h2><p>Descargá GEMA para tu computadora. La versión web y la de escritorio pueden convivir como dos formas de acceder al mismo sistema.</p></div>
+      <div class="download-cards">
+        <a class="download-card" href="https://github.com/SKATELOVE24/GEMA-PLATAFORMA-WEB/releases/latest/download/Instalador_GEMA.exe" download="Instalador_GEMA.exe"><div class="os-icon">⊞</div><div><small>DESCARGAR PARA</small><strong>Windows</strong><span>Instalador directo · .EXE</span></div><b>↓</b></a>
+        <div class="download-card disabled"><div class="os-icon apple">●</div><div><small>PRÓXIMAMENTE</small><strong>macOS</strong><span>Instalador nativo · .DMG</span></div><b>—</b></div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div><span class="eyebrow"><span></span> Proyecto GEMA</span><h2>Diseñado para que la gestión académica se sienta simple.</h2></div>
+      <p>GEMA centraliza información que normalmente queda repartida entre planillas, mensajes y archivos. La web conserva los módulos principales de la aplicación JavaFX, pero con una experiencia más rápida, clara y adaptable a celular, tablet y computadora.</p>
+    </section>
+
+    <footer><div class="brand compact"><img src="assets/gema-logo.png" alt=""/><span><strong>GEMA</strong><small>Gestión Escolar y Monitoreo Académico</small></span></div><span>© 2026 GEMA · Informática</span></footer>
+  </main>
+
+  <section id="appShell" class="app-shell hidden">
+    <aside class="sidebar">
+      <div class="sidebar-brand"><img src="assets/gema-logo.png" alt="GEMA"><div><b>GEMA</b><small>Gestión Escolar</small></div></div>
+      <div class="role-badge" id="roleBadge">COORDINACIÓN</div>
+      <nav id="sideNav"></nav>
+      <div class="sidebar-bottom">
+        <button class="nav-item" data-page="downloads"><span>⇩</span>Descargas</button>
+        <button class="nav-item" id="logoutBtn"><span>↪</span>Cerrar sesión</button>
+      </div>
+    </aside>
+    <div class="app-body">
+      <header class="app-topbar">
+        <button id="mobileMenu" class="icon-btn menu-btn">☰</button>
+        <div><h1 id="pageTitle">Inicio</h1><p id="pageSubtitle">Resumen de tu actividad académica</p></div>
+        <div class="top-actions">
+          <div id="dbPill" class="status-pill"><i></i><span>Modo demo</span></div>
+          <button class="icon-btn" title="Notificaciones">♢<span class="notification-dot"></span></button>
+          <div class="user-menu"><div class="avatar" id="avatar">G</div><div><b id="userName">Usuario</b><small id="userRole">GEMA</small></div></div>
+        </div>
+      </header>
+      <div id="content" class="content"></div>
+    </div>
+  </section>
+
+  <div id="loginModal" class="modal-backdrop hidden">
+    <div class="login-modal">
+      <button class="modal-close" data-close>×</button>
+      <div class="login-logo"><img src="assets/gema-logo.png" alt="GEMA"><div><b>GEMA</b><span>Gestión Escolar</span></div></div>
+      <h2>Bienvenido/a</h2><p>Ingresá con tu cédula y contraseña para continuar.</p>
+      <form id="loginForm">
+        <label>Cédula<input name="cedula" autocomplete="username" placeholder="Ej. 5123456" required></label>
+        <label>Contraseña<div class="password-wrap"><input id="passwordInput" name="password" type="password" autocomplete="current-password" placeholder="••••••••" required><button type="button" id="togglePassword">◉</button></div></label>
+        <div id="loginError" class="form-error hidden"></div>
+        <button class="btn btn-primary btn-full btn-lg" type="submit">Iniciar sesión</button>
+      </form>
+      <div class="demo-divider"><span>o probá la interfaz</span></div>
+      <div class="demo-buttons"><button data-demo="COORDINADOR">Coordinación</button><button data-demo="DOCENTE">Docente</button><button data-demo="ALUMNO">Alumno</button></div>
+      <small class="login-note">Los accesos Demo no modifican tu base de datos.</small>
+    </div>
+  </div>
+
+  <div id="genericModal" class="modal-backdrop hidden"><div class="dialog"><div class="dialog-head"><div><h3 id="dialogTitle">Nuevo</h3><p id="dialogSubtitle"></p></div><button class="modal-close" data-close-dialog>×</button></div><form id="dialogForm"><div id="dialogFields" class="dialog-fields"></div><div class="dialog-actions"><button type="button" class="btn btn-soft" data-close-dialog>Cancelar</button><button type="submit" class="btn btn-primary" id="dialogSubmit">Guardar</button></div></form></div></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
