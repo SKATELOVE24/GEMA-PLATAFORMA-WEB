@@ -1,0 +1,7 @@
+# Copiá este archivo como: config/gema.properties
+# IMPORTANTE: no publiques gema.properties en GitHub porque contiene la contraseña de tu BD.
+
+db.host=SERVIDOR:PUERTO
+db.name=gema_db
+db.user=USUARIO
+db.password=CONTRASEÑA

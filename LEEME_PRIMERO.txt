@@ -1,0 +1,11 @@
+GEMA WEB - EMPEZÁ ACÁ
+
+1) Para verla YA: doble clic en ABRIR_PREVIEW.bat
+   - Entrá con los botones Demo: Coordinación / Docente / Alumno.
+
+2) Para usar el servidor web completo: doble clic en INICIAR_GEMA_WEB.bat
+   - Abrí http://localhost:8080
+
+3) Para conectarla a tu GEMA real: ejecutá CONFIGURAR_BD.bat y colocá la conexión de la misma BD que usa la versión de escritorio.
+
+La página descarga directamente Instalador_GEMA.exe en Windows, sin ZIP. macOS figura como próximamente hasta tener un .dmg nativo.
